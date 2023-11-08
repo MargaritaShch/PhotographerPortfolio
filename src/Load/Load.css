@@ -1,0 +1,56 @@
+@keyframes fromTop {
+
+    /*transform: translateY(): Это CSS-свойство применяет перевод элемента вдоль оси Y (вертикальное перемещение). При translateY(-100%) элемент сдвигается вверх на 100%, а при translateY(0) возвращается в исходное положение.*/
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    90% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.image-slider-load {
+    animation: fromTop 5s ease forwards;
+
+}
+
+/*текст выплывает сверху*/
+/*0% и 100%: Эти значения представляют начальное и конечное состояния анимации. На 0% (начало анимации) устанавливаются свойства для начального состояния (текущее положение - 100% по вертикали и нулевая прозрачность),
+а на 100% (конец анимации) устанавливаются свойства для финального состояния (текущее положение - 0% по вертикали и полная видимость).*/
+@keyframes fromTop {
+
+    /*transform: translateY(): Это CSS-свойство применяет перевод элемента вдоль оси Y (вертикальное перемещение). При translateY(-100%) элемент сдвигается вверх на 100%, а при translateY(0) возвращается в исходное положение.*/
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.logo-load {
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    animation: fromTop 5s ease forwards;
+}
+
+.descr-log-load{
+    letter-spacing: 2px;
+        margin-top: -15px;
+        font-family: 'Montserrat', sans-serif;
+
+    padding-bottom: 50px;
+   
+    animation: fromTop 5s ease forwards;
+}

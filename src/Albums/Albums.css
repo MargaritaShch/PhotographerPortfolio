@@ -1,0 +1,84 @@
+.commerce,
+.wedding,
+.love-story,
+.portrait {
+    width: 320px;
+    height: 480px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.commerce:hover,
+.wedding:hover,
+.love-story:hover,
+.portrait:hover {
+    transform: scale(1.2)
+}
+
+.album {
+    text-decoration:none;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+@media (max-width: 390px) {
+
+.gen-album{
+    
+
+}
+    .commerce,
+    .wedding,
+    .love-story,
+    .portrait {
+        width: 180px;
+        height: 240px;
+    }
+
+
+    .album {
+        text-decoration: none;
+        padding-bottom: 10px;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 768px) {
+.album {
+
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+    .commerce,
+    .wedding,
+    .love-story,
+    .portrait {
+            width: 170px;
+            height: 270px;
+        }
+}
+
+/* Устройства со средним экраном (ноутбуки и компьютеры, 992px и выше) */
+@media (min-width: 992px) {
+.commerce,
+    .wedding,
+    .love-story,
+    .portrait {
+        width: 230px;
+        height: 360px;
+    }
+}
+
+/* Устройства с большим экраном (компьютеры, 1200px и выше) */
+@media (min-width: 1200px) {
+    .commerce,
+    .wedding,
+    .love-story,
+    .portrait {
+        width: 270px;
+        height: 420px;
+    }
+}

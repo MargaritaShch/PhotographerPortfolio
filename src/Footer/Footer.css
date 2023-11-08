@@ -1,0 +1,42 @@
+.footer{
+    display: grid;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 0px 20px 0px;
+    font-size: 14px;
+    
+
+}
+
+.media{
+    padding-bottom: 10px;
+cursor: pointer;
+
+
+}
+
+.icon{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+/* .icon:hover{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.186);
+} */
+
+.link {
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    color: inherit;
+    /* Наследуем цвет текста */
+    cursor: pointer;
+    /* Изменяем курсор на указатель */
+}
+
+.link:hover {
+    /* Изменяем стиль ссылки при наведении */
+    text-decoration: underline;
+    /* Добавляем подчеркивание */
+}

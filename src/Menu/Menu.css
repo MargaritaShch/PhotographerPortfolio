@@ -1,0 +1,82 @@
+.gen-menu{padding-top: 10px;
+    margin-top: -23px;
+    background-color: rgba(183, 179, 179, 0.021);
+    position: sticky;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+   padding-bottom: 15px;
+}
+
+.submenu {
+    align-items: center;
+    text-align: start;
+    list-style: none;
+    font-size: 15px;
+}
+
+.submenu li {
+    background: rgba(92, 91, 91, 0.176);
+    border: 1px solid rgba(0, 0, 0, 0.189);
+    padding: 3px;
+    cursor: pointer;
+}
+
+.submenu li:hover {
+    background: rgba(47, 46, 46, 0.264);
+}
+
+.submenu.visible {
+    display: block;
+}
+
+.first-item {
+    margin-right: auto;
+    color: rgba(80, 78, 78, 0.8);
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.first-item:hover {
+    color: black;
+}
+
+
+.li {
+    padding-right: 60px;
+    color: rgba(80, 78, 78, 0.8)
+}
+
+.li:hover {
+    color: black;
+}
+
+/*phones*/
+@media (max-width: 390px)  {
+    .menu {
+        display: grid;
+        row-gap: 10px;
+    }
+
+    .li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 415px){
+    .menu {
+        display: grid;
+        row-gap: 10px;
+    }
+    
+    .li {
+        font-size: 18px;
+    }
+}
