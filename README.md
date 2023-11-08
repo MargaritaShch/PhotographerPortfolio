@@ -1,4 +1,4 @@
-# PhotographerPortfolio
+# Photographer Portfolio
 
 ## That my first project on the React
 
