@@ -1,13 +1,18 @@
-# Photographer Portfolio
+# :camera: Photographer Portfolio
 
-## That my first project on the React
+## :hammer_and_wrench: Tools:
+  ### - React; 
+  ### - JavaScript;
+  ### - CSS.
+ 
 
-### What I used to develop the website:
-<div align="start">
-  
+## :wrench: Realisation:
+  ### - Hooks: useState, useRef(farwardRef)(scrolling);
+  ### - Routing: React-router-dom (page navigation);
+  ### - Setting up EmailJS to send requests to email;
+  ### - Adaptation for mobile devices.
 
-  <p>1. Hooks: useState, useRef(farwardRef)(scrolling);  </p>
-  <p>2. Routing: React-router-dom (page navigation);  </p>
-  <p>3. Setting up EmailJS to send requests to email; </p>
-  <p>4. Adaptation for mobile devices. </p>
-</div>
+
+### View link: [Photographer Portfolio](https://margaritashch.github.io/PhotographerPortfolio/)
+
+
